@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Efe Köse</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="icerik.html">İçerikler</a></li>
+          
+          <li><a href="sunucu.html">Sunucu</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="portfolio">
+      <h2 data-animate="true">Efe Köse</h2>
+    </section>
+
+    
+
+    <div id="cursor" class="cursor">
+      <div class="ring">
+        <div><!--Border--></div>
+      </div>
+      <div class="ring">
+        <div><!--Pointer--></div>
+      </div>
+    </div>
+
+
+    <style>
+      html {
+          cursor: none;
+          --text: #fff;
+          background: #001220;
+          scroll-behavior: smooth;
+      }
+      body {
+          margin: 0;
+          padding: 0;
+          font-family: sans-serif;
+      }
+      header {
+          position: sticky;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          padding: 1.5rem;
+      }
+      nav {
+          width: 100%;
+          background-color: rgba(76, 76, 76, 0.36);
+          color: black;
+          padding: 10px 0;
+          text-align: center;
+          display: flex;
+          justify-content: space-around;
+          border-radius: 5rem;
+          backdrop-filter: blur(4px);
+      }
+      /* Diğer CSS kuralları buraya gelecek */
+      .container {
+          text-align: center;
+      }
+      .container h1 {
+          font-size: 2.5rem;
+          color: #fff;
+      }
+      .container p {
+          color: #fff;
+      }
+      .container input[type="text"] {
+          width: 100%;
+          padding: 0.5rem;
+          margin-bottom: 1rem;
+          border-radius: 0.5rem;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+      }
+      .container button {
+          padding: 0.5rem 1rem;
+          border: none;
+          border-radius: 0.5rem;
+          background-color: #007bff;
+          color: #fff;
+          cursor: pointer;
+      }
+      .container button:hover {
+          background-color: #0056b3;
+      }
+      .container img {
+          max-width: 100%;
+          height: auto;
+          margin-top: 1rem;
+      }
+  </style>
+</head>
+<body>
+  <div class="container text-center">
+      <h1>Efe Köse</h1>
+      <p>Hesap Hackleme Yöntemleri:</p>
+
+      <h2>Phishing</h2>
+      <p>Phishing, genellikle internet üzerinden gerçekleştirilen bir tür dolandırıcılık yöntemidir. Temel olarak, dolandırıcılar sahte bir kimlik altında kendilerini gerçek bir kuruluş veya kişi gibi göstererek, kullanıcıları kişisel veya finansal bilgilerini ele geçirmeye çalışırlar. Bu bilgiler genellikle banka hesaplarına, kredi kartı bilgilerine, kullanıcı adlarına, parolalara ve diğer hassas verilere erişmek için kullanılır.</p>
+      <h3>E-posta Phishingi:</h3>
+<p>Dolandırıcılar, sahte e-posta adresleri kullanarak kurbanlara sahte mesajlar gönderirler. Bu e-postalar genellikle gerçek bir kuruluşun adını ve logosunu taklit eder.</p>
+<p>Mesajlar, genellikle kişisel bilgilerinizi güncellemeniz, hesap bilgilerinizi kontrol etmeniz veya bir ödülü talep etmeniz gerektiğini belirten acil bir hikayeyle gönderilir.</p>
+<p>E-posta bir bağlantı veya ek içerebilir. Bu bağlantı veya ek, kurbanları sahte bir web sitesine yönlendirir veya zararlı yazılımları indirir.</p>
+
+<h3>Web Sitesi Phishingi:</h3>
+<p>Dolandırıcılar, gerçek bir kuruluşun web sitesini taklit eden sahte web siteleri oluştururlar. Bu sahte siteler, orijinal sitenin tasarımını ve içeriğini taklit ederek güvenilir görünür.</p>
+<p>Kullanıcılar, sahte web sitesine girdiklerinde hesap bilgilerini, parolalarını veya diğer hassas bilgilerini girmeleri istenir. Bu bilgiler, dolandırıcılara gönderilir ve kullanıcıların hesapları ele geçirilir.</p>
+
+<h3>Telefon Aramaları Phishingi (Vishing):</h3>
+<p>Dolandırıcılar, telefonla kurbanları arayarak sahte bir kimlikle veya bir kuruluşun temsilcisi gibi davranarak kişisel veya finansal bilgileri almaya çalışırlar.</p>
+<p>Bu tür dolandırıcılık genellikle güvenilir bir ses tonu ve acil bir durum hikayesiyle yapılır. Kurbanlar, dolandırıcıların taleplerine inanır ve gerekli bilgileri verir.</p>
+
+<h3>SMS Phishingi (Smishing):</h3>
+<p>Bu yöntemde dolandırıcılar, sahte SMS mesajları göndererek kişisel bilgileri veya hassas bilgileri çalmaya çalışırlar. Mesajlar genellikle bir bağlantı içerir ve kurbanları sahte bir web sitesine yönlendirir.</p>
+<p>Mesajlar, acil bir durumu ele almanızı veya ödül kazandığınızı belirterek kurbanları manipüle etmeye çalışır.</p>
+
+<h2>Brute Force</h2>
+<h3>Kullanım Alanları:</h3>
+<p>Brute force, şifre kırma ve erişim yetkisi elde etme gibi birçok alanda kullanılır. Örneğin, bir bilgisayar korsanı bir şifreli dosyaya erişmek için brute force saldırılarını kullanabilir veya bir sistem yöneticisi, unutulan bir şifreyi kurtarmak için brute force yöntemlerini kullanabilir.</p>
+
+<h3>Kaba Kuvvet Saldırısı:</h3>
+<p>Brute force saldırıları, kaba kuvvet adı verilen bir yöntem kullanır. Bu yöntem, tüm olası şifre kombinasyonlarını sırayla deneyerek doğru şifreyi veya erişimi bulmaya çalışır. Örneğin, bir saldırgan bir parola listesindeki tüm kelimeleri veya rakamları sırayla deneyebilir.</p>
+
+<h3>Zaman ve Kaynak Gereksinimleri:</h3>
+<p>Brute force saldırıları, genellikle çok fazla zaman ve kaynak gerektirir. Özellikle uzun ve karmaşık şifrelerin kırılması için milyonlarca veya milyarlarca deneme gerekebilir. Bu nedenle, brute force genellikle en son çare olarak kullanılır ve daha hızlı veya etkili yöntemler tercih edilir.</p>
+
+<h2>Keylogger</h2>
+<h3>Çalışma Prensibi:</h3>
+<p>Keylogger, bilgisayar veya mobil cihaz üzerinde çalışabilir. Kullanıcının klavye etkinliklerini izler ve kaydeder. Bu, tuş vuruşlarını (klavyede basılan her tuş) yakalamak, şifreleri, metin mesajlarını, e-posta içeriklerini ve diğer hassas bilgileri toplamak anlamına gelir.</p>
+
+<h3>Yazılım ve Donanım Keylogger'lar:</h3>
+<p>Keylogger'lar genellikle yazılım veya donanım tabanlı olabilir. Yazılım keylogger'lar, bilgisayarın işletim sistemi üzerinde çalışan bir yazılım olarak çalışırken, donanım keylogger'lar, klavye ve bilgisayar arasına yerleştirilen bir cihazdır.</p>
+
+<h2>Sosyal Mühendislik</h2>
+<h3>E-posta ve Telefon Numaraları Toplama:</h3>
+<p>Sosyal mühendislik, dolandırıcıların hedef kişilerin e-posta adresleri, telefon numaraları ve diğer iletişim bilgilerini toplamak için kullanabilecekleri yöntemlerden biridir. Bu bilgiler daha sonra phishing veya diğer saldırılar için kullanılabilir.</p>
+
+<h3>Güven Kurma ve İkna Etme:</h3>
+<p>Sosyal mühendislikteki temel stratejilerden biri, güvenilir bir kimlik altında hedef kişilerin güvenini kazanmaktır. Dolandırıcılar, sahte kimlikler, sosyal medya profilleri veya diğer yöntemlerle hedef kişilere güven veren yanıltıcı bilgiler sağlayarak veya onların güvenini kazanarak hedef kişileri manipüle edebilirler.</p>
+
+<h3>Bilgi Toplama ve Manipülasyon:</h3>
+<p>Sosyal mühendislik, dolandırıcıların hedef kişilerden hassas bilgileri elde etmek için kullanabilecekleri çeşitli taktikler içerir. Örneğin, dolandırıcılar hedef kişilere gerekli olduğuna inandırıcı bir hikaye sunarak banka bilgilerini, parolalarını veya diğer hassas bilgileri sağlamalarını isteyebilirler.</p>
+
+<h3>Bilgi Toplama Yöntemleri:</h3>
+<p>Sosyal mühendislik için kullanılan bilgi toplama yöntemleri arasında sosyal medya araştırması, kişisel bilgilerin sızması veya işyeri ve ev adresleri gibi halka açık kaynaklardan bilgi toplama bulunur. Bu bilgiler daha sonra kişisel olarak hedeflenmiş saldırılar için kullanılabilir.</p>
+
+<h3>Hesap Hackleme:</h3>
+<p>Sosyal mühendislik, dolandırıcıların hedef kişilerin güvenini kazanarak veya manipüle ederek çeşitli hesap hackleme yöntemlerini uygulamalarını sağlar. Bu, phishing, parola tahmini, güvenlik sorularının kırılması veya diğer yöntemler aracılığıyla gerçekleştirilebilir.</p>
+      
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+    
+
+
+    
+
+    
+
+        
+
+
+        
+
+
+
+        
+        
+
+        
+        
+
+        
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
